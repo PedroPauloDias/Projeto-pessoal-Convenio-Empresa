@@ -6,7 +6,9 @@
   box-sizing: border-box;
 }
 body {
-  width: 1440px;
+  min-width: 300px;
+  max-width: 1440px;
+  margin: auto;
 }
 
 header {
@@ -48,6 +50,9 @@ nav {
   color: #fff;
 }
 .navbar img {
+  width: 40px;
+ 
+ 
   padding-top: 12px;
 }
 
@@ -125,10 +130,7 @@ main {
   width: 470px;
 }
 
-.how-it hr {
-  width: 120px;
-  border: 1px solid #0062ff;
-}
+
 .how-it img {
   width: 36px;
   height: 62px;
@@ -147,6 +149,23 @@ main {
   font-weight: 400;
   font-size: 16px;
   margin-right: 31px;
+}
+.line{
+  position: absolute;
+width: 360px;
+height: 1px;
+border: 1px solid #C1C6C8;
+
+  
+}
+.line div {
+  position: absolute;
+  width: 152px;
+  height: 1px;
+  border: 1px solid #0062FF;
+  
+
+
 }
 .container {
   width: 1110px;
@@ -325,8 +344,7 @@ main {
   cursor: pointer;
   color: #0072ce;
   align-items: center;
-  border-bottom: 1px solid #009cde;
-  margin: 0px 165px ;
+    margin: 0px 165px ;
 }
 .question h3 {
   font-weight: 700;
@@ -335,6 +353,23 @@ main {
   line-height: 25px;
   padding-left: 8px;
   margin: 10px;
+}
+.faq-line{
+  width:1110px;
+  height:1px;
+  position:absolute;
+  border: 1px solid #C1C6C8;
+  box-sizing: border-box;
+ margin-top:40px;
+}
+.faq-line div {
+  width:120px;
+  height:1px;
+  position:absolute;
+  border: 1px solid #009CDE;
+  box-sizing: border-box;
+ 
+
 }
 .answer {
   max-height: 0;
